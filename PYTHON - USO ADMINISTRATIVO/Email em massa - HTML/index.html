@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--idioma vigente no corpo do email-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title> <!--este não é o título do email, apenas representativo-->
+</head>
+
+<style type="text/css">
+
+    div { 
+        text-align: center;
+    }
+
+</style> <!--o style type implementa o css interno para alterações de cor, tamanho, localização e etc.-->
+
+<body> <!--corpo do email-->
+
+    <p>Querido, ${PERSON_NAME},</p> <!--a tag p define os páragrafos presentes no corpo do email-->
+    <p>Estamos realizando um teste.</p>
+    <p style="color: red">Favor confirmar o recebimento deste e-mail!</p> <!--uso de css inline para alterar a cor da letra-->
+
+</body> <!--fim do corpo do email-->
+
+</html>
